@@ -14,5 +14,7 @@ public static void zadanie3(){
         String fullName = "Иванов Семён Семёнович";
     fullName = fullName.replace("ё", "е");
     System.out.println("Данные ФИО сотрудника — " + fullName);
+    boolean got = fullName.contains("е");
+    System.out.println("реестр изменен 'е' : " + got);
 }
 }
